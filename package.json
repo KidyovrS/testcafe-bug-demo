@@ -1,0 +1,13 @@
+{
+  "name": "testcafe-bug-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^0.20.4"
+  },
+  "private":true,
+  "scripts": {
+    "test": "testcafe firefox,chrome scripts/test.js -s screenshots"
+  }
+}
