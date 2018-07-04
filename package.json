@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "testcafe": "^0.20.4"
+    "testcafe": "0.20.4"
   },
-  "private":true,
+  "private": true,
   "scripts": {
     "test": "testcafe firefox,chrome -s screenshots test.js"
   }
