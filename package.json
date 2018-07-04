@@ -8,6 +8,6 @@
   },
   "private":true,
   "scripts": {
-    "test": "testcafe firefox,chrome scripts/test.js -s screenshots"
+    "test": "testcafe firefox,chrome -s screenshots test.js"
   }
 }
